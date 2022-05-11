@@ -1,5 +1,5 @@
 import numpy as np
-from Learners.Learner import Learner
+from Learner import *
 
 
 class GTS_Learner(Learner):

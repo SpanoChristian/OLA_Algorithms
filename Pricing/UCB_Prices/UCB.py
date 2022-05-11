@@ -10,7 +10,7 @@ class UCB(Learner.Learner):
         self.prices = prices
 
     def act(self):
-        idx = np.argmax(self.means + self.widths)
+        idx = np.argmax((self.means + self.widths) * self.prices)
         return idx
 
     def update(self, arm_pulled, reward):

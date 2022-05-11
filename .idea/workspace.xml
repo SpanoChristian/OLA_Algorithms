@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64472ddb-ffa3-490e-bff6-82477b51e322" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="64472ddb-ffa3-490e-bff6-82477b51e322" name="Changes" comment="Change probabilities">
+      <change afterPath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/Learner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pricing/Non_Stationary_Env/Example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pricing/Non_Stationary_Env/Learner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pricing/Non_Stationary_Env/Non_Stationary_Env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pricing/Non_Stationary_Env/SW_TS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pricing/UCB/Example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pricing/UCB/Example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/GPTS_Experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/GPTS_Experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/GPTS_Learner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/GPTS_Learner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/GTS_Learner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Digital Advertising/Gaussian Processes MAB/GTS_Learner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pricing/UCB_Prices/UCB.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pricing/UCB_Prices/UCB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,22 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "/Users/christianspano/OneDrive - Politecnico di Milano/Magistrale (PoliMi)/Courses/2nd Year/1st Term/Online Learning Applications/OLA_Algorithms",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;/Users/christianspano/OneDrive - Politecnico di Milano/Magistrale (PoliMi)/Courses/2nd Year/1st Term/Online Learning Applications/OLA_Algorithms&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Pricing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pricing/Non_Stationary_Env" />
       <recent name="$PROJECT_DIR$/Learners" />
       <recent name="$PROJECT_DIR$/Digital Advertising/Gaussian Processes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Example">
+  <component name="RunManager" selected="Python.Example (2)">
     <configuration name="Example (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OLA Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +66,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pricing/UCB_Prices/Example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Example (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OnlineLearningApplications" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pricing/Non_Stationary_Env" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pricing/Non_Stationary_Env/Example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +117,7 @@
       <method v="2" />
     </configuration>
     <configuration name="GPTS_Experiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OLA Algorithms" />
+      <module name="OnlineLearningApplications" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -248,10 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Example (2)" />
+        <item itemvalue="Python.GPTS_Experiment" />
         <item itemvalue="Python.Example" />
         <item itemvalue="Python.Example (1)" />
         <item itemvalue="Python.Gaussian_Processes" />
-        <item itemvalue="Python.GPTS_Experiment" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +294,29 @@
       <option name="presentableId" value="Default" />
       <updated>1650553053887</updated>
     </task>
+    <task id="LOCAL-00001" summary="Change probabilities">
+      <created>1651259497957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651259497957</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change probabilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change probabilities" />
   </component>
 </project>
